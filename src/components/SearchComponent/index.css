@@ -1,0 +1,21 @@
+.searchcomponent {
+  display: flex;
+  /* column-gap: 51px; */
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 940px;
+  height: 100px;
+  left: 20%;
+  top: 527px;
+
+  background: linear-gradient(
+    94.43deg,
+    rgba(249, 249, 249, 0.49) 34.95%,
+    rgba(249, 249, 249, 0.175) 67.01%
+  );
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+}

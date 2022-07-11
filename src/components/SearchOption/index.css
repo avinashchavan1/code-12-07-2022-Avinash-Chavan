@@ -1,0 +1,49 @@
+.searchoption {
+  /* position: absolute; */
+  width: 20 0px;
+  height: 70px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 16px;
+}
+.searchheading {
+  /* position: absolute; */
+  width: 44px;
+  height: 19px;
+  left: 129px;
+  top: 548px;
+  margin-top: 5px;
+  margin-left: 15px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  /* or 18px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #6d6d6d;
+}
+
+.searchplaceholder {
+  /* position: absolute; */
+  width: 185px;
+  height: 33px;
+  left: 135px;
+  top: 571px;
+  margin-left: 15px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 110%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}

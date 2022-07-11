@@ -1,0 +1,18 @@
+.centertext {
+  position: absolute;
+  width: 795px;
+  height: 271px;
+  left: 25%;
+  top: 120px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 110px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}

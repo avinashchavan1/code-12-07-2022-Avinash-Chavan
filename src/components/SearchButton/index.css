@@ -1,0 +1,28 @@
+.searchbutton {
+  width: 235px;
+  height: 70px;
+  left: 791px;
+  top: 542px;
+  margin: auto;
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 16px;
+}
+.icon {
+  margin-left: 25px;
+  margin-top: 2.5vh;
+}
+
+.searchtext {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 110%;
+  margin-left: 85px;
+  margin-top: -32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
