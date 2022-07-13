@@ -1,10 +1,11 @@
+import BlurComponent from "../../layouts/BlurComponent";
 import SearchButton from "../SearchButton";
 import SerachOption from "../SearchOption";
 import "./index.css";
 
 const SearchComponent = () => {
   return (
-    <div className="searchcomponent">
+    <BlurComponent>
       <SerachOption
         key="0"
         headingName="City"
@@ -21,7 +22,7 @@ const SearchComponent = () => {
         placeholderText="Select your guests"
       />
       <SearchButton />
-    </div>
+    </BlurComponent>
   );
 };
 

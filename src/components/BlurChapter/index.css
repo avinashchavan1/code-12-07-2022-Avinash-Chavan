@@ -1,0 +1,55 @@
+.blurchapter {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 400px;
+  height: 100px;
+  left: 123px;
+  top: 170px;
+
+  background: linear-gradient(
+    94.33deg,
+    rgba(255, 255, 255, 0.6) 3.19%,
+    rgba(255, 255, 255, 0.1) 99.26%
+  );
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+}
+.chapterheading {
+  position: relative;
+  height: 26px;
+  left: 35px;
+  top: 15px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.chapterdescription {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 400px;
+  height: 80px;
+  left: 0px;
+  top: 15px;
+  padding: 10px;
+  background: linear-gradient(
+    94.33deg,
+    rgba(255, 255, 255, 0.6) 3.19%,
+    rgba(255, 255, 255, 0.1) 99.26%
+  );
+  backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+}

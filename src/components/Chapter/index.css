@@ -1,0 +1,13 @@
+.chapterimage {
+  position: relative;
+  width: 400px;
+  height: 266.99px;
+  left: 98px;
+  top: 203px;
+
+  /* background: url(./../../assets/chapter1.png); */
+  border-radius: 15px;
+}
+.chapter {
+  padding: 30px;
+}

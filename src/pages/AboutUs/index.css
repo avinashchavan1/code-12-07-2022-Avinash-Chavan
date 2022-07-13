@@ -1,0 +1,43 @@
+.pageheader {
+  position: absolute;
+  width: 274px;
+  height: 70px;
+  left: 98px;
+  top: 44px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  /* or 70px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.subheading {
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  left: 98px;
+  top: 135px;
+
+  /* font-family: "Ubuntu"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.chapterlist {
+  display: flex;
+  flex-wrap: wrap;
+}
