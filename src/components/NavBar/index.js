@@ -2,19 +2,21 @@ import "./index.css";
 
 const NavBar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="/explore">Explore</a>
-        </li>
-        <li>
-          <a href="/about">About Us</a>
-        </li>
-        <li>
-          <a href="/">Cities </a>
-        </li>
-      </ul>
-    </nav>
+    <div className="header">
+      <div className="headerlogo">
+        <a href="/">My Logo</a>
+      </div>
+      <div className="headercard hcard1">
+        <a href="/explore">Explore</a>
+      </div>
+      <div className="headercard hcard2">
+        <a href="/about">About Us</a>
+      </div>
+      <div className="headercard hcard3">Cities</div>
+      <div className="hcall">
+        <div className="hcalltext">Call</div>
+      </div>
+    </div>
   );
 };
 

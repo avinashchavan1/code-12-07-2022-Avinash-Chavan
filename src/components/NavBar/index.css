@@ -1,24 +1,86 @@
-nav {
-  width: 100%;
+.headerlogo {
+  position: relative;
+  width: 186px;
+  height: 53px;
+  left: 8vw;
+  top: 33px;
+
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+
+  color: #ffffff;
+}
+.headerlogo a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  position: relative;
+  height: 200px;
+}
+
+.headercard {
+  position: absolute;
+  width: 104px;
+  height: 39px;
+  top: 33px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.headercard a {
+  text-decoration: none;
+  color: inherit;
+}
+.hcard1 {
+  left: 55vw;
+}
+.hcard2 {
+  left: 65vw;
+}
+.hcard3 {
+  left: 75vw;
+}
+
+.hcall {
+  position: absolute;
+  width: 131px;
   height: 50px;
-  line-height: 70px;
-  font-size: 25px;
+  left: 85vw;
+  top: 33px;
+
+  border: 2px solid #ffffff;
+  border-radius: 10px;
 }
-nav ul {
-  float: right;
-  margin-top: 5px;
-  margin-right: 100px;
-}
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  transition: 0.7s all;
-}
-nav ul li:hover {
-  background-color: rgb(229, 226, 22);
-}
-nav ul li a {
-  text-decoration: solid;
-  color: #fff;
-  padding: 80px;
+.hcalltext {
+  position: absolute;
+  width: 104px;
+  height: 39px;
+  left: 40px;
+  top: 5px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
 }
