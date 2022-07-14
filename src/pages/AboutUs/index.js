@@ -8,7 +8,7 @@ import Footer from "../../layouts/Footer";
 
 const AboutUs = () => {
   return (
-    <div className="explore">
+    <div className="aboutus">
       <div className="pageheader">About Us</div>
       <div className="subheading">Allow us to tell us a short story...</div>
       <div className="chapterlist">

@@ -1,0 +1,90 @@
+.blurexplore {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 424px;
+  height: 100px;
+  left: 91px;
+  bottom: -30vh;
+
+  background: linear-gradient(
+    94.33deg,
+    rgba(255, 255, 255, 0.6) 3.19%,
+    rgba(255, 255, 255, 0.1) 99.26%
+  );
+  backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+}
+.exploreheading {
+  position: relative;
+  width: 300px;
+  height: 20px;
+  left: 2vw;
+  top: 15px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.detailcard {
+  position: absolute;
+
+  background: linear-gradient(90deg, #ff594c 0%, #fac527 100%);
+  border-radius: 10px;
+}
+.dcard1 {
+  top: 45px;
+
+  left: 2vw;
+  width: 80px;
+  height: 30px;
+}
+.dcard2 {
+  top: 45px;
+
+  left: 9vw;
+  width: 80px;
+  height: 30px;
+}
+
+.dcard3 {
+  top: 30px;
+
+  left: 18vw;
+  width: 100px;
+  height: 50px;
+}
+.explorecardtext {
+  position: relative;
+  width: 31px;
+  height: 20px;
+  left: 20px;
+  z-index: 2;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.explorecardtextnormal {
+  top: 5px;
+}
+
+.explorecardtextbook {
+  top: 15px;
+}

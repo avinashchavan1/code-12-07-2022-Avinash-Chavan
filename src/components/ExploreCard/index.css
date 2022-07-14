@@ -1,0 +1,12 @@
+.exploreimage {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  left: 5vw;
+  top: 270px;
+
+  border-radius: 25px;
+}
+/* .explorecard {
+  padding: 10px;
+} */
